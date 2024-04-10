@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.get('/', (req, res) => {
     console.log(req.body);
 
-    res.send('hello world')
+    res.send('hello world ji')
 })
 
 
